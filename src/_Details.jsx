@@ -200,7 +200,7 @@ export const actions = [
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
     paragraph:
-      "Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.",
+      "In the fast-paced world where you are looking to access services at any time and form anywhere. So, here we are ready to serve you 24 hours and 7 days a week. It will act as a sign of commitment, reliability and coustomer satisfaction.",
   },
   {
     title: "Verified By Customers",
@@ -209,7 +209,7 @@ export const actions = [
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
     paragraph:
-      "Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.",
+      "Our services are verifed by customers who have used it. They have shared their honest feedback and ratings based on their experience.  We are confident that you will love our product too.",
   },
   {
     title: "Schedule a one-on-one",
@@ -218,7 +218,7 @@ export const actions = [
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",
     paragraph:
-      "Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.",
+      "By using our website you can arrange your meetings and conversations at any time and anywhere. Trust us it will definitelly save your priceless hours and that's how the control of managing your event will come to your hand.",
   },
   {
     title: "Responsible Sourcing",
@@ -227,7 +227,7 @@ export const actions = [
     iconForeground: "text-yellow-700",
     iconBackground: "bg-yellow-50",
     paragraph:
-      "Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.",
+      "Responsible sourcing can bring benefits such as operational efficiency, customer loyalty, brand reputation, and competitive advantage. It is a trustable point that we are providing you.",
   },
 ];
 
