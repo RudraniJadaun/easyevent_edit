@@ -44,7 +44,7 @@
   color: lightsteelblue;
 }
 #team_heading{
-    font-family: "Tektur", sans-serif;
+    font-family: "cursive", italic;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -75,8 +75,12 @@
   background: #e57d2d; }
 
 .maptitle{
-  font-family: "Kode Mono", monospace;
+    font-family: "cursive", italic;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+/* footer tagline fontstyle */
+.tagline{
+  font-family: "cursive";
 }

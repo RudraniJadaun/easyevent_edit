@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <h1 className="text-white"><img src="https://i.postimg.cc/R0CdR6yB/1.png" width={250} alt="Easyvents"/></h1>
-            <p className="text-sm leading-6 text-gray-300">
+            <p className="tagline text-sm leading-6 text-gray-300">
               We can organize any events for you on your fingertips
             </p>
             <div className="flex space-x-6">

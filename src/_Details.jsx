@@ -170,9 +170,9 @@ export const team = [
   },
   {
     id: 4,
-    name: "Rudrani Pal",
+    name: "Rudrani jadaun",
     job_role: "React Developer",
-    image_url: "",
+    image_url: "https://i.postimg.cc/L5zHM6Nm/Screenshot-20240226-070406.jpg",
     linkedinId: "https://www.linkedin.com",
     githubId:"https://github.com/RudraniJadaun",
   },
