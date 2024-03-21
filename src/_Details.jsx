@@ -1,4 +1,5 @@
 // import components
+<<<<<<< HEAD
 import { AcademicCapIcon, BanknotesIcon, CheckBadgeIcon, ClockIcon, ReceiptRefundIcon, UsersIcon, } from "@heroicons/react/24/outline";
 
 // import data
@@ -276,6 +277,16 @@ export const team = [
     githubId:"https://github.com/",
   },
 ];
+=======
+import {
+  AcademicCapIcon,
+  BanknotesIcon,
+  CheckBadgeIcon,
+  ClockIcon,
+  ReceiptRefundIcon,
+  UsersIcon,
+} from "@heroicons/react/24/outline";
+>>>>>>> 0921c2a6ddfde87e87ffe505815074f8afc3f4d8
 
 export const navigation = {
   solutions: [
@@ -367,56 +378,60 @@ export const navigation = {
   ],
 };
 
-export const reviews = {
-  average: 4,
-  totalCount: 1624,
-  counts: [
-    { rating: 5, count: 520 },
-    { rating: 4, count: 162 },
-    { rating: 3, count: 97 },
-    { rating: 2, count: 199 },
-    { rating: 1, count: 147 },
-  ],
-  featured: [
-    {
-      id: 1,
-      rating: 5,
-      content: `
-          <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-        `,
-      author: "Shivam Sharma",
-      // avatarSrc:
-    },
-    {
-      id: 2,
-      rating: 5,
-      content: `
-          <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-        `,
-      author: "Prashant Sarswat",
-      avatarSrc:
-        "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80",
-    },
-    {
-      id: 3,
-      rating: 5,
-      content: `
-          <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-        `,
-      author: "Hemant Bhargav",
-      avatarSrc:
-        "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80",
-    },
-    {
-      id: 4,
-      rating: 5,
-      content: `
-          <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
-        `,
-      author: "Mohit Saraswat",
-      avatarSrc:
-        "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80",
-    },
-    // More reviews...
-  ],
-};
+export const categories = [
+  {
+    name: 'Hotels',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-01.jpg',
+  },
+  {
+    name: 'Gardens',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-02.jpg',
+  },
+  {
+    name: 'Caterings',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-04.jpg',
+  },
+  {
+    name: 'Makeup',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-05.jpg',
+  },
+  {
+    name: 'Fireworks',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+
+  {
+    name: 'Kirana Stores',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+
+  {
+    name: 'Lights & Decorations',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+
+  {
+    name: 'Travellings',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+
+  {
+    name: 'Cards Printing',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+
+  {
+    name: 'Sounds',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+  },
+]
