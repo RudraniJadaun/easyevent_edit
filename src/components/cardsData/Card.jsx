@@ -1,6 +1,7 @@
 import React from 'react'
 import { categories } from '../../_Details'
-
+import Test from '../Test'
+import { Link } from 'react-router-dom'
 function Card() {
   return (
     <>
@@ -15,7 +16,7 @@ function Card() {
               <div className="relative box-content h-80 overflow-x-auto py-2 xl:overflow-visible">
                 <div className="min-w-screen-xl absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0">
                   {categories.map((category) => (
-                    <a
+                   <a
                       key={category.name}
                       href={category.href}
                       className="relative flex h-72 w-56 flex-col overflow-hidden rounded-lg p-4 hover:opacity-75 xl:w-auto"

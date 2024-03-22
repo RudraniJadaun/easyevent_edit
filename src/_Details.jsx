@@ -1,5 +1,4 @@
 // import components
-<<<<<<< HEAD
 import { AcademicCapIcon, BanknotesIcon, CheckBadgeIcon, ClockIcon, ReceiptRefundIcon, UsersIcon, } from "@heroicons/react/24/outline";
 
 // import data
@@ -277,16 +276,6 @@ export const team = [
     githubId:"https://github.com/",
   },
 ];
-=======
-import {
-  AcademicCapIcon,
-  BanknotesIcon,
-  CheckBadgeIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
->>>>>>> 0921c2a6ddfde87e87ffe505815074f8afc3f4d8
 
 export const navigation = {
   solutions: [

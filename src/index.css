@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
 * {
   scroll-behavior: smooth;
 }
@@ -58,14 +57,6 @@
 }
 .discription_text {
   font-family: monospace;
-=======
-.garden-image {
-  background-image: url("https://image.wedmegood.com/resized/1000X/uploads/member/4174446/1701420205_WhatsApp_Image_2023_12_01_at_00.39.42__2_.jpeg?crop=0,0,2048,1152");
-  background-size: cover;
-  background-position-y: -13rem;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
->>>>>>> 0921c2a6ddfde87e87ffe505815074f8afc3f4d8
 }
 
 .garden-image:hover {
@@ -87,14 +78,5 @@
 .bride-image {
   background-image: url("https://lh4.googleusercontent.com/uWbGQtbnkkRA0i-zDNfnTDDd1fMwIFfgfIn3d2k8oQy0AFtiJ5MI2_ph1nGiwTj--BUEqzUpBzgUlnII3Tmc0hteyf5Ewtzf4XR2Rxb8mXFx8Z8UfbKlIoXhcJ0gWPLbIe_m5Wvtemy4LzUMyoX4IIU");
 
-<<<<<<< HEAD
-.maptitle{
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-=======
   background-position-y: -12rem;
 }
->>>>>>> 0921c2a6ddfde87e87ffe505815074f8afc3f4d8
