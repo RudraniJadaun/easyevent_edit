@@ -1,4 +1,5 @@
 // import components
+<<<<<<< HEAD
 import { AcademicCapIcon, BanknotesIcon, CheckBadgeIcon, ClockIcon, ReceiptRefundIcon, UsersIcon, } from "@heroicons/react/24/outline";
 
 // import data
@@ -276,6 +277,18 @@ export const team = [
     githubId:"https://github.com/",
   },
 ];
+=======
+
+import {
+  AcademicCapIcon,
+  BanknotesIcon,
+  CheckBadgeIcon,
+  ClockIcon,
+  ReceiptRefundIcon,
+  UsersIcon,
+} from "@heroicons/react/24/outline";
+import { light } from "@mui/material/styles/createPalette"
+>>>>>>> aa6589134664fe8a756f680afecaf2824ffad153
 
 export const navigation = {
   solutions: [
@@ -370,57 +383,57 @@ export const navigation = {
 export const categories = [
   {
     name: 'Hotels',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-01.jpg',
+    href: 'hotelscard',
+    imageSrc:"https://i.postimg.cc/nzQCjFTR/hotels.jpg",
   },
   {
     name: 'Gardens',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-02.jpg',
+    href: 'gardencards',
+    imageSrc:"https://i.postimg.cc/JhNjpPRR/garden.jpg",
   },
   {
     name: 'Caterings',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-04.jpg',
+    imageSrc: "https://i.postimg.cc/76PKwRVZ/catering.jpg",
   },
   {
-    name: 'Makeup',
+    name: 'Salon & Parlour',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-05.jpg',
+    imageSrc: "https://i.postimg.cc/L8cXdKmj/salon.jpg",
   },
   {
     name: 'Fireworks',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/KzswVF22/fireworks.jpgx",
   },
 
   {
     name: 'Kirana Stores',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/xd8WPqwR/grocery.jpg",
   },
 
   {
     name: 'Lights & Decorations',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/KvdkbgNK/lights.jpg",
   },
 
   {
-    name: 'Travellings',
+    name: 'Car',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/vTvsNk3L/car.jpg",
   },
 
   {
     name: 'Cards Printing',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/bYSL91sr/cards.jpg",
   },
 
   {
     name: 'Sounds',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg'
+    imageSrc: "https://i.postimg.cc/vm16wtR6/dj.jpg",
   },
 ]

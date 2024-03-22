@@ -9,13 +9,17 @@ import Product from "./components/cards/Product";
 
 export default function App() {
   return (
-    <div>
+    <>
       <Nav />
-      {/* <Block/> */}
-      <Card/>
-      <Product/>
-      {/* <About/> */}
-      {/* <Footer /> */}
-    </div>
+      {/* <Card /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Card/>}/>
+          <Route path="hotelscard" element={<Product />} />
+          <Route path="gardencards" element={<Product />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 }
