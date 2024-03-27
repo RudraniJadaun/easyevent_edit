@@ -1,5 +1,4 @@
 // import components
-<<<<<<< HEAD
 import { AcademicCapIcon, BanknotesIcon, CheckBadgeIcon, ClockIcon, ReceiptRefundIcon, UsersIcon, } from "@heroicons/react/24/outline";
 
 // import data
@@ -277,18 +276,6 @@ export const team = [
     githubId:"https://github.com/",
   },
 ];
-=======
-
-import {
-  AcademicCapIcon,
-  BanknotesIcon,
-  CheckBadgeIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
-import { light } from "@mui/material/styles/createPalette"
->>>>>>> aa6589134664fe8a756f680afecaf2824ffad153
 
 export const navigation = {
   solutions: [
